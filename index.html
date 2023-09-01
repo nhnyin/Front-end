@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>The Salvation Army</title>
+    <meta name="description" content="">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favico/favicon-16x16.png">
+  <link rel="manifest" href="./img/favico/site.webmanifest">
+  <link rel="mask-icon" href="./img/favico/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./img/favico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="./img/favico/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <body>
+
+ <header class="header">
+   <div class="wrapper">
+     <!-- <div class="header__wrapper header__logo-opt"> -->
+      <div class="header__logo-opt">
+     <div class="header__logo">
+      <a href="/" class="header__logo-link">
+        <img src="./img/shieldSA1.png" alt="The Salvation Army" class="header__logo-pic">
+      </a>
+     </div>
+  <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#articles" class="header__link js-scroll lang"key="articles">Articles</a>
+        </li>
+        <li class="header__item">
+          <a href="#locations"  class="header__link js-scroll lang" key="locations">Events</a>
+        </li>
+        <li class="header__item">
+          <a href="#videos"  class="header__link js-scroll lang" key="video">Video</a>
+        </li>
+        <li class="header__item">
+          <a href="#home"  class="header__link js-scroll lang" key="home">Home</a>
+        </li>
+        <li class="header__link-lg">
+          <a href="#!" id="en" class="translate header__link  js-scroll">English</a></li>
+        <li class="header__link-lg">
+          <a  href="#!" id="ru"class="translate header__link  js-scroll">Русский</a></li>
+        <li class="header__link-lg">
+           <a  href="#!" id="ro"class="translate header__link  js-scroll">Română</a>
+        </li>
+
+      </ul>
+      <div class="header__nav-close">
+        <span class="header__nav-close-line"></span>
+        <span class="header__nav-close-line"></span>
+      </div>
+  </nav>
+
+  <div class="header__burger burger">
+    <span class="burger__line burger__line_first"></span>
+    <span class="burger__line burger__line_second"></span>
+    <span class="burger__line burger__line_thrid"></span>
+  </div>
+
+  </div>
+   </div>
+ </header>
+
+ <main class="main">
+ <div class="intro" id="home">
+   <div class="wrapper">
+   <h1 class="intro__title lang" key="introTit">The Salvation Army Republic of Moldova</h1> 
+   <p class="intro__subtitle lang" key="introSubTit">An international Christian and charitable organization that has effectively become a Protestant denomination. It was founded as a Christian mission in 1865 in England by Methodist preacher William Booth and his wife Catherine to preach to the poor and destitute, and in 1878 was reorganized as an army and named the Salvation Army.
+In the 1880s, the Salvation Army began to develop social service, helping the needy, establishing various charitable institutions, such as flophouses for the homeless, shelters for the disabled, workshops for the unemployed, hospitals for alcoholics, shelters for prostitutes, nurseries for abandoned children, and the like. . In the same years, the Salvation Army began to spread its activities to different countries of the world. It currently covers over 130 countries. Its headquarters is in London. In the Russian Empire and Soviet Russia, the Salvation Army worked from 1913 to 1923 and has been present in modern Russia since 1991.</p>
+   <form class="search-form"> 
+<fieldset class="search-form__wrap">
+  <p class="search-form__info"> 
+    <input type="text" class="search-form__field search-form__field-title" placeholder="What would you like to do?" name="user-like-to-do" title="Write"  onmousemove="showTitle(event)">
+    <input type="text" class="search-form__field search-form__field-title" placeholder="Where would you like to go?" name="user-like-to-go" title="Write"  onmousemove="showTitle(event)">
+    <button type="submit" class="search-form__submit lang" key="searchIf">search</button>
+  </p>
+</fieldset>
+   </form>
+ </div>
+ </div> 
+
+ <section class="benefits"> 
+<div class="benefits__wrap">
+  <h2 class="benefits__title lang" key="benTit">The Salvation Army</h2>
+  <div class="benefits__cards">
+    <div class="benefits__card">
+      <div class="benefits__card-pic">
+      <img src="./img/svg/home-insurance.png" alt="Protection" class="benefits__card-thumb" style="margin-top: 2px;"> </div>
+      <h3 class="benefits__card-title" key="benCardTit1">Protection!</h3>
+      <p class="benefits__card-desc" key="benCard1">The Salvation Army is able to provide protection and a secluded place for everyone.</p>
+      <a href="#!" class="benefits__card-more lang" key="benMore">LEARN MORE </a>
+    </div>
+      <div class="benefits__card">
+         <div class="benefits__card-pic">
+      <img src="./img/svg/home.png" alt="Love" class="benefits__card-thumb" style="margin-top: 2px;"> </div>
+      <h3 class="benefits__card-title lang" key="benCardTit2">Love!</h3>
+      <p class="benefits__card-desc lang" key="benCard2">The Salvation Army adheres to the rule: "Heart to God, hand to man". We can give love to everyone.</p>
+      <a href="#!" class="benefits__card-more lang" key="benMore">LEARN MORE </a>
+      </div>
+        <div class="benefits__card">
+            <div class="benefits__card-pic">
+      <img src="./img/svg/smart-home.png" alt="Care" class="benefits__card-thumb" style="margin-top: 2px;"> </div>
+      <h3 class="benefits__card-title lang" key="benCardTit3">Care!</h3>
+      <p class="benefits__card-desc lang" key="benCard3">We, as humans, can give care to others because we have empathy - the ability to understand and experience the feelings of other people. This ability allows us to feel empathy and compassion for those who need our help and support.</p>
+      <a href="#!" class="benefits__card-more lang" key="benMore">LEARN MORE </a>
+        </div>
+  </div>
+</div>
+ </section>
+
+<section class="places">
+  <div class="wrapper-full">
+   <div class="places__caption">
+      <h2 class="places__title section-title lang" key="placesTit">Churches in the Republic of Moldova</h2>
+      <a href="#!" class="places__view-all lang" key="viewAll">VIEW ALL</a>
+   </div>
+<div class="places__cards">
+<figure class="places__card places__card_size_lg"> 
+ <img src="./img/AS/khishinau.jpg" alt="Kishinev" class="places__card-pic places__card-pic_size_lg">
+ <figcaption class="places__card-title lang" key="place1">Kishinev</figcaption>
+  <a href="#!" class="places__card-link"></a>
+ </figure>
+ <figure class="places__card places__card_size_lg"> 
+ <img src="./img/AS/ialoveni.jpg" alt="ialoveni" class="places__card-pic places__card-pic_size_lg">
+ <figcaption class="places__card-title lang" key="place2">Ialoveni</figcaption>
+  <a href="#!" class="places__card-link"></a>
+ </figure>
+  <figure class="places__card places__card_size_sm"> 
+ <img src="./img/AS/edinet.jpg" alt="edinet" class="places__card-pic places__card-pic_size_sm">
+ <figcaption class="places__card-title lang" key="place3">Edinet</figcaption>
+  <a href="#!" class="places__card-link"></a>
+ </figure>
+  <figure class="places__card places__card_size_sm"> 
+ <img src="./img/AS/balti.jpg" alt="balti" class="places__card-pic places__card-pic_size_sm">
+ <figcaption class="places__card-title lang" key="place4">Balti</figcaption>
+  <a href="#!" class="places__card-link"></a>
+ </figure>
+  <figure class="places__card places__card_size_sm"> 
+ <img src="./img/AS/balti_new.jpg" alt="balti_new" class="places__card-pic places__card-pic_size_sm">
+ <figcaption class="places__card-title lang" key="place5">New Balti</figcaption>
+  <a href="#!" class="places__card-link"></a>
+ </figure>
+</div>
+  </div>
+</section>
+
+
+<div class="tours" id="articles">
+  <div class="wrapper-full">
+    <div class="tours__tour tour">
+      <div class="tour__pic">
+        <img src="./img/AS/tour1.jpg" alt="Youth meeting in New Balti" class="tour__thumb">
+      </div>
+      <div class="tour__info">
+        <h3 class="tour__title lang" key="tour1">Youth meeting in New Balti</h3>
+        <p class="tour__desc lang" key="tourDesc1">In the "Church of New Balti" you will have the opportunity to make new friends, learn more about God and the Christian life. Our meetings will be filled with fun activities, discussions and delicious tea.</p>
+        <a href="#!" class="tour__more lang" key="benMore">LEARN MORE</a>
+      </div>
+    </div>
+
+     <div class="tours__tour tour">
+       <div class="tour__info">
+        <h3 class="tour__title lang" key="tour2">Territorial youth meeting in Chisinau</h3>
+        <p class="tour__desc lang" key="tourDesc2">This meeting is intended for all young people in Eastern Europe. At this meeting, we communicate, praise God, drink drinks and eat tasty food.</p>
+        <a href="#!" class="tour__more lang" key="benMore">LEARN MORE</a>
+      </div>
+      <div class="tour__pic tour__pic_mob-first">
+        <img src="./img/AS/tour2.jpg" alt="erritorial youth meeting in Chisinau" class="tour__thumb">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="top" id="locations">
+  <div class="wrapper-full">
+    <h2 class="top__title section-title lang" key="topTit">Events</h2>
+    <div class="top__cards">
+      <div class="top__card">
+        <div class="top__card-pic">
+          <img src="./img/AS/top1.jpg" alt="Territorial meeting" class="top__card-thumb">
+          <div class="top__card-stats">
+            <h3 class="top__card-title lang" key="topTit1">TERRITORIAL MEETING</h3>
+          </div>
+        </div>
+        <p class="top__card-desc lang" key="top1">Meeting of the territory of Eastern Europe with the general.</p>
+        <a href="#!" class="top__card-more lang" key="seeMore">SEE MORE</a>
+      </div>
+      <div class="top__card">
+        <div class="top__card-pic">
+          <img src="./img/AS/top2.jpg" alt="NEW CREATING" class="top__card-thumb">
+          <div class="top__card-stats">
+            <h3 class="top__card-title lang" key="topTit2">NEW CREATING</h3>
+          </div>
+        </div>
+        <p class="top__card-desc lang" key="top2">Are you looking for a place to connect with others and grow in your faith? Look no further! Introducing New Creating, a new dating group for teens.</p>
+        <a href="#!" class="top__card-more lang" key="seeMore">SEE MORE</a>
+      </div>
+      <div class="top__card">
+        <div class="top__card-pic">
+          <img src="./img/AS/top3.jpg" alt="General's sermon" class="top__card-thumb">
+          <div class="top__card-stats">
+            <h3 class="top__card-title lang" key="topTit3">GENERAL'S SERMON</h3>
+          </div>
+        </div>
+        <p class="top__card-desc lang" key="top3">The General rreaches God's word to a wide area</p>
+        <a href="#!" class="top__card-more lang" key="seeMore">SEE MORE</a>
+      </div>
+      <div class="top__card">
+        <div class="top__card-pic">
+          <img src="./img/AS/top4.jpg" alt="NEW YEAR'S DANCE" class="top__card-thumb">
+          <div class="top__card-stats">
+            <h3 class="top__card-title lang" key="topTit4">NEW YEAR'S DANCE</h3>
+          </div>
+        </div>
+        <p class="top__card-desc lang" key="top4">Finally, the New Year's dance is a great way to get in the holiday mood and create a festive atmosphere in the company of friends and loved ones. Dance helps us forget about everyday worries and problems and enjoy the moment together with the people we care about.</p>
+        <a href="#!" class="top__card-more lang" key="seeMore">SEE MORE</a>
+      </div>
+      <div class="top__card">
+        <div class="top__card-pic">
+          <img src="./img/AS/top5.jpg" alt="PHOTOS WITH THE GENERAL" class="top__card-thumb">
+          <div class="top__card-stats">
+            <h3 class="top__card-title lang" key="topTit5">PHOTOS WITH THE GENERAL</h3>
+          </div>
+        </div>
+        <p class="top__card-desc lang" key="top5">The general is an idol for many. For this, a photo session was made where everyone could take a picture with him.</p>
+        <a href="#!" class="top__card-more lang" key="seeMore">SEE MORE</a>
+      </div>
+      <div class="top__card">
+        <div class="top__card-pic">
+          <img src="./img/AS/top6.jpg" alt="JOYFACES OF CHILDREN" class="top__card-thumb">
+          <div class="top__card-stats">
+            <h3 class="top__card-title lang" key="topTit6">JOYFACES OF CHILDREN</h3>
+           <!-- <div class="top__card-likes">
+              <span class="top__card-likes-value">221</span>
+            </div>
+            <div class="top__card-comments">
+               <span class="top__card-comments-value">50</span>
+            </div>-->
+          </div>
+        </div>
+        <p class="top__card-desc lang" key="top6">The joyful faces of children are a reason for the happiness of their parents. And we as an organization can help and make many children in the world happy.</p>
+        <a href="#!" class="top__card-more lang" key="seeMore">SEE MORE</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<div class="videos" id="videos">
+  <div class="videos__wrapper">
+    <div class="video__item">
+    <iframe class="video__element" src="./video/video.mp4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="wrapper">
+<div class="footer__item">
+  <div class="footer__logo">
+    <img class="footer__logo-pic" src="./img/shieldSA.png" alt="Discover Amazing places in Japan">
+  </div>
+  <nav class="footer__nav">
+    <ul class="footer__menu">
+      <li class="footer__menu-item">
+        <h3 class="footer__menu-title lang" key="futTitC">Company</h3>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitC1">About</a>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitC2">Team</a>
+      </li>
+       <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitC3">Careers</a>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitC4">Privacy Policy</a>
+      </li>
+    </ul>
+    <ul class="footer__menu">
+      <li class="footer__menu-item">
+        <h3 class="footer__menu-title lang" key="futTitL">Locations</h3>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitL1">Kishinev</a>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitL2">Balti</a>
+      </li>
+       <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitL3">Orhei</a>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitL4">Ungeni</a>
+      </li>
+    </ul>
+    <ul class="footer__menu">
+      <li class="footer__menu-item">
+        <h3 class="footer__menu-title lang" key="futTitS">Social Media</h3>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitS1">Facebook</a>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitS2">Twitter</a>
+      </li>
+       <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitS3">Instagram</a>
+      </li>
+        <li class="footer__menu-item">
+        <a href="#!" class="footer__menu-link lang" key="futTitS4">Youtube</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+  </div>
+</footer>
+<script src="./js/main.js"></script>
+  </body>
+  </html>
